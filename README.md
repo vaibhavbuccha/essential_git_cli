@@ -28,3 +28,7 @@ git commit -m 'here is the message for the above commit.'
 ```bash
 git push
 ```
+- for check all the commit history we have to use log command .
+```bash
+git log 
+```
