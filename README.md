@@ -13,8 +13,18 @@ git clone <repository_Url>
   git status 
 ```
 - for adding file we have to use git add command.
-```
+```bash
 git add
 ```
 > we have to use ( . ) for add all files otherwise we can specify the filenames
 
+- for commiting the changes we have to use commit command .
+```bash
+git commit -m 'here is the message for the above commit.'
+```
+> ( -m ) is a flag use for message .
+
+- for pushing the file to the remote we have to use push command.
+```bash
+git push
+```
