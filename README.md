@@ -32,3 +32,14 @@ git push
 ```bash
 git log 
 ```
+
+- for create a new merge request or branch .
+
+```bash
+git branch <branch name>
+```
+
+- push code to an specific branch
+```bash
+git push origin <branch name>
+```
