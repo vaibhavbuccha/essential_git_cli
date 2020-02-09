@@ -43,3 +43,13 @@ git branch <branch name>
 ```bash
 git push origin <branch name>
 ```
+
+- set origin to online repository
+```bash
+git remote add origin <url>
+```
+
+- set fast forward push operation
+```bash
+git push -f origin master
+```
