@@ -53,3 +53,20 @@ git remote add origin <url>
 ```bash
 git push -f origin master
 ```
+- set global user name in git
+```bash
+git config --global  user.name "username"
+```
+- set username for non global
+```bash
+git config  user.name "username"
+```
+- get username
+```bash
+git config user.name
+```
+- get global username
+```bash
+ git config --global user.name
+
+```
