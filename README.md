@@ -70,3 +70,8 @@ git config user.name
  git config --global user.name
 
 ```
+
+- get all latest commits 
+```bash
+git pull origin <originName>
+```
