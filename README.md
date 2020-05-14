@@ -75,3 +75,17 @@ git config user.name
 ```bash
 git pull origin <originName>
 ```
+
+- putting the commits and changes on hold 
+```bash
+
+git add .
+
+git stash
+```
+
+- get back our stash files
+```bash
+
+git stash pop
+```
