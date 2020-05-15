@@ -30,5 +30,5 @@ git branch <branchname>
 ```bash
 git checkout -D  "branchname"
 ```
-
+* There are 2 ways to destroy a brach one is using <mark>-D</mark> flag and another one is <mark>-d</mark> flag now the diffrence between both is that <mark>-d</mark>  will give an error if there any commit is pending but <mark>-D</mark> don't give any error it directly delete the branch.
 
