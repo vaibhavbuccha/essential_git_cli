@@ -28,11 +28,30 @@ git commit -m 'here is the message for the above commit.'
 ```bash
 git push
 ```
-- for check all the commit history we have to use log command .
+- [x] GIT LOG
+---
+- This helps give context and history for a repo.
+
+- for show all logs
 ```bash
 git log 
 ```
+- for git small commit hashes
+```bash
+git log --online
+```
 
+- Get logs before date
+```bash
+git log -before="date"
+```
+
+- Get logs by author
+```bash
+git logs --author="authorName"
+```
+
+---
 - for create a new merge request or branch .
 
 ```bash
@@ -102,3 +121,15 @@ git stash show
 ```bash
 git stash apply
 ```
+---
+
+- For compair 2 commits 
+```bash
+git diff <commitHash1> <commitHash2>
+```
+
+- Show all remotes
+```bash
+git remote -v
+```
+
