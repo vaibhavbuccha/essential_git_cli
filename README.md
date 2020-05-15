@@ -172,7 +172,7 @@ git checkout <commitHash>
 
 ---
 
-- [] GIT REBASE
+- [ ] GIT REBASE
 ---
 - IT Takes a set of commits ,copies then store them out side your repo.
 - It is another way of merging commits.
