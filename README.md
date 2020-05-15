@@ -184,3 +184,20 @@ git rebase <branch>
 
 ---
 
+- [x] GIT FETCH
+---
+- Fetch all of the branches from the repository. This also downloads all of the required commits and files from the other repository.
+```bash
+git fetch <remote>
+```
+
+- Same as the above command, but only fetch the specified branch.
+```bash
+git fetch <remote> <branch>
+```
+- A power move which fetches all registered remotes and their branches:
+```bash
+git fetch --all
+```
+
+---
