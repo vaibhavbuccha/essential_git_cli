@@ -35,3 +35,14 @@ git checkout -D  "branchname"
 ```bash
 git checkout -d  "branchname"
 ```
+
+> merge branch
+```bash
+git merge <branchname>
+```
+- [x] git merge is user for merging wo branch and we also say that we use git merge for merge one repo to another for that we have to follow some steps first we have to move to our branch with we have to merge the another branch than we use the command.
+
+
+
+
+

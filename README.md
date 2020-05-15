@@ -1,6 +1,6 @@
 # Essential git commands for version control. 
 
-### Version Control :- Version control systems are a category of software tools that help a software team manage changes to source code over time. Version control software keeps track of every modification to the code in a special kind of database. If a mistake is made, developers can turn back the clock and compare earlier versions of the code to help fix the mistake while minimizing disruption to all team members.
+### [x] Version Control :- Version control systems are a category of software tools that help a software team manage changes to source code over time. Version control software keeps track of every modification to the code in a special kind of database. If a mistake is made, developers can turn back the clock and compare earlier versions of the code to help fix the mistake while minimizing disruption to all team members.
 
  - for clone a repository from the remote repository we have to use clone command. git clone bascically copy the complete reposity.
 
@@ -76,3 +76,29 @@ git config user.name
 git pull origin <originName>
 ```
 
+### [x] GIT STASH
+---
+
+- Git stash is mainly use to save changes made when they are not in a state to commit them to a repo.
+
+```bash
+git stash
+```
+- for undo the last stash 
+```bash
+git stash pop
+```
+- The file or change which are stash are not staggable or trackable in status. for track them we have to use following command.
+```bash
+git stash list
+```
+
+- for inspect them.
+```bash
+git stash show
+```
+
+- If we want to work again with stash changes than we have to use.
+```bash
+git stash apply
+```
