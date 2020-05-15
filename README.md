@@ -76,6 +76,15 @@ git push -f origin master
 ```bash
 git config --global  user.name "username"
 ```
+- set global user email in git
+```bash
+git config --global  user.name "useremail"
+```
+- set useremail for non global
+```bash
+git config  user.name "useremail"
+```
+
 - set username for non global
 ```bash
 git config  user.name "username"
@@ -84,11 +93,22 @@ git config  user.name "username"
 ```bash
 git config user.name
 ```
+- get useremail
+```bash
+git config user.email
+```
+
 - get global username
 ```bash
  git config --global user.name
 
 ```
+- get global useremail
+```bash
+ git config --global user.email
+
+```
+
 
 - get all latest commits 
 ```bash
@@ -132,4 +152,35 @@ git diff <commitHash1> <commitHash2>
 ```bash
 git remote -v
 ```
+
+- [x] GIT REVERT
+---
+- git revert is use for rollback to pervious versions.
+```bash
+git revert <commitHash>
+```
+- undo the revert
+```bash
+git revert HEAD
+```
+
+- undo a specific commit 
+```bash
+git checkout <commitHash>
+```
+- _Note:-_ All reverts can be tracked in logs.
+
+---
+
+- [] GIT REBASE
+---
+- IT Takes a set of commits ,copies then store them out side your repo.
+- It is another way of merging commits.
+- It is make to linner sequence of commits.
+- Advantage of rebase is that is makes clear our git logs and history.
+```bash
+git rebase <branch>
+```
+
+---
 
